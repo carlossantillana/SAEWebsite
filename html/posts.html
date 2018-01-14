@@ -1,0 +1,17 @@
+---
+layout: default
+title: Posts
+---
+<link href="/css/posts.css" type="text/css" rel="stylesheet">
+	<ul class="posts">
+        Test
+        <h2>Projects:</h2>
+	  {% for post in site.posts %}
+	  	<div class="title">
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br></li>
+		</div>
+		<br>
+		<p> {{ post.excerpt }}</p>
+		<br>
+	  {% endfor %}
+	</ul>
