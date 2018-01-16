@@ -2,11 +2,11 @@ html.splash{
     width: 100%;
     height: 100%;
     background: url("https://saeucr.org/wp-content/uploads/2018/01/dark-triangles.png") ;
+    position: fixed;
 }
 
 body.splash{
     background: linear-gradient(rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 45%, rgba(34, 34, 34, 1) 100%) no-repeat;
-    
 }
 
 .heading.splash{
@@ -15,20 +15,22 @@ body.splash{
 }
 
 article.splash img{
-    width: 95%;
+    width: 90%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
 
 #container{
-
     margin: 0 auto;
+    height: auto;
+
 }
 
 article.splash {
     float: left;
     width: 50%;
+    height: auto;
     opacity: 0.9;
     font-family: 'Bree Serif';
     display: inline-block;
@@ -54,17 +56,8 @@ article.splash:hover{
 article.splash .label{
     text-align: center;
     display: block;
-
 }
-/*for mobile devices*/
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    body.splash{
-        background: url("https://saeucr.org/wp-content/uploads/2018/01/SAECARcrop.jpg") repeat #333333;
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
 
-}
 .heading{
     color: white;
     margin-bottom: 20px;
@@ -76,8 +69,8 @@ img{
 }
 figure{
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 figcaption{
     caption-side: right;
@@ -94,4 +87,14 @@ figcaption{
     margin: 0 auto;
     position: relative;
     width: 100%;
+}
+/*for mobile devices*/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    body.splash{
+        background: url("https://saeucr.org/wp-content/uploads/2018/01/dark-triangles.png") repeat #333333;
+        background: linear-gradient(rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 45%, rgba(34, 34, 34, 1) 100%) no-repeat;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
 }
