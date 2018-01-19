@@ -1,16 +1,18 @@
 html{
     width: 100%;
     height: 100%;
-
+    margin: 0px; padding: 0px;
 }
 
 body{
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     height: 100%;
+    width: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-        color: #f1f1f1;
+    color: #f1f1f1;
+    margin: 0px; padding: 0px;
 }
 p {
     color: white;
@@ -149,3 +151,6 @@ li.nav-item .btn-white {
   .navbar-brand img{
       height: 1em;
   }
+.container{
+    margin: 0px; padding: 0px;
+}
