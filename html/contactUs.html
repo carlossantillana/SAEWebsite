@@ -3,17 +3,23 @@ layout: default
 title: Contact Us
 ---
 <link href="/css/contactUs.css" type="text/css" rel="stylesheet">
+<h1 class="heading">Contact Us:</h1>
 <div class="container">
-  <form action="action_page.php">
-
+    <form  action="contactUs.php" method ="POST">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Write message.." style="height:200px"></textarea>
+
+    <label>What is 3+3? (Anti-spam)</label>
+    <input name="human" placeholder="Type Here">
 
     <input type="submit" value="Submit">
 

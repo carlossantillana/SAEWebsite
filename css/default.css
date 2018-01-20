@@ -27,7 +27,8 @@ p {
   margin: 2rem auto; }
 
 .navbar-trans {
-  background: transparent; }
+  background: transparent;
+    }
 
 a.navbar-brand, a.logo {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -153,4 +154,8 @@ li.nav-item .btn-white {
   }
 .container{
     margin: 0px; padding: 0px;
+}
+.heading{
+    color: white;
+    text-align: center;
 }
