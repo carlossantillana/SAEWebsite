@@ -5,7 +5,7 @@
     $email = $_POST['email'];
     $message = $_POST['message'];
     $from = 'From: FSAE';
-    // $to = 'test@fsae.com';
+    // $to = 'test@fsae.com';       
     $to = 'hqw0p@slipry.net';
     $subject = 'Hello from the Website';
     $human = $_POST['human'];

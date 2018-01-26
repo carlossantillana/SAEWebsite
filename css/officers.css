@@ -30,3 +30,26 @@ p{
 	flex-wrap: wrap;
 	overflow-x: hidden;
 }
+.superLead{
+	width: 100vw;
+}
+.supLead img{
+	max-height: 100%;
+	max-width: 100%;
+	height: 100%;
+	width: auto;
+}
+.supLead{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	max-height: 600px;
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	width: 45vw;
+
+}
+figcaption{
+	float: right;
+	padding-left: 10px;
+}
