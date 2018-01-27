@@ -22,13 +22,13 @@ body{
     margin: 0px; padding: 0px;
 }
 #img1{
-        background-image: url('/assets/Composites Day 2-4OP.png');
+        background-image: url('https://github.com/carlossantillana/SAEWebsite/blob/master/assets/Composites%20Day%202-4OP.png?raw=true');
 }
 #img2{
-        background-image: url('/assets/Composites Day 2-2OP.png');
+        background-image: url('https://github.com/carlossantillana/SAEWebsite/blob/master/assets/Composites%20Day%202-2OP.png?raw=true');
 }
 #img3{
-        background-image: url('/assets/Composites-3.jpg');
+        background-image: url('https://github.com/carlossantillana/SAEWebsite/blob/master/assets/Composites-3OP.png?raw=true');
 }
 .text{
     padding-top: 70%;
