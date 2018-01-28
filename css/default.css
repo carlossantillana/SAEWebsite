@@ -27,7 +27,9 @@ p {
   height: 0.3rem;
   background-color: #dfe1e5;
   margin: 2rem auto; }
-
+  .container-fluid.navbar-container, .navbar-brand {
+    padding-left: 0;
+  }
 .navbar-trans {
   background: transparent;
     }
@@ -37,7 +39,9 @@ a.navbar-brand, a.logo {
   color: #fff !important;
   font-size: 2rem;
   font-weight: bold;
-  margin-top: 0; }
+  margin-top: 0;
+
+}
 
 a.logo:hover, a.logo:active, a.logo:focus {
   text-decoration: none; }

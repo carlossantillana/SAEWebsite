@@ -18,8 +18,8 @@ p.excerpt {
 .leader{
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;
-	max-width: 300px;
-	max-height: 600px;
+	max-width: 400px;
+	max-height: 800px;
 	display: inline-block;
 	margin: 0 auto;
 	margin-bottom: 25px;
@@ -37,7 +37,7 @@ p.excerpt {
 .leader:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-
+/*http://www.corelangs.com/css/box/hover.html*/
 .team{
 	display: flex;
 	flex-wrap: wrap;
@@ -56,13 +56,26 @@ p.excerpt {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;
 	max-height: 600px;
-	display: inline-block;
+	display: inline;
 	margin: 0 auto;
 	margin-bottom: 25px;
-	width: 45vw;
+	width: 47vw;
 
 }
-figcaption{
+figure{
+	float: left;
+	padding-left: 10px;
+}
+p{
 	float: right;
 	padding-left: 10px;
+	width: 95%;
+	display: inline-block;
+	position: relative;
+}
+.text{
+	width: 100%;
+	display: inline;
+	float right;
+	color: green;
 }
