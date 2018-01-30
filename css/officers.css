@@ -86,6 +86,11 @@ figure img{
 
   padding: 1em;
 }
+.headImage img{
+	width: 100%;
+	height: 50%;
+	max-height: 50vh;
+}
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 	.supLead{
