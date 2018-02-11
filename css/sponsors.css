@@ -16,6 +16,8 @@
 .platinumImg{
     margin-left: auto;
     margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
     display: block;
     width: 100%;
     height: auto;
