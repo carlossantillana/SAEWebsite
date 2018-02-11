@@ -1,0 +1,155 @@
+.container{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+        text-align: center;
+}
+.typeSponsor{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.platinumImg{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.goldImg{
+    display: inline-flex;
+    margin: 10px 10px 10px 10px;
+    width: 350px;
+    height: 140px;
+    position: relative;
+
+}
+
+.silverImg{
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    width: 220px;
+    height: 75px;
+    position: relative;
+}
+.bronzeImg{
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    width: 130px;
+    height: 50px;
+    position: relative;
+}
+
+}
+/* #IMS{
+        background-image: url('../assets/sponsors/IMS.svg');
+}
+#farasis{
+        background-image: url('../assets/sponsors/farasis.png');
+}
+#josephBeggs{
+        background-image: url('../assets/sponsors/JosephBegsFoundation.png');
+}
+#joby{
+        background-image: url('../assets/sponsors/joby.png');
+}
+#hypermill{
+        background-image: url('../assets/sponsors/hypermill.jpg');
+}
+#southcoastFoam{
+        background-image: url('../assets/sponsors/South_Coast_logo.png');
+}
+#altium{
+        background-image: url('../assets/sponsors/AltiumLogo_white.svg');
+}
+#BCOE{
+        background-image: url('../assets/sponsors/BCOE_logo_CMYK.svg');
+}
+#solidworks{
+        background-image: url('../assets/sponsors/solidworks.svg');
+}
+#staflSystems{
+        background-image: url('../assets/sponsors/Stafl_Systems.svg');
+}
+#paradiseChev{
+        background-image: url('../assets/sponsors/paradiseChevrolet.png');
+}
+#bishopWelding{
+        background-image: url('../assets/sponsors/bishopBlk.png');
+}
+#Connect3d{
+        background-image: url('../assets/sponsors/3DConnexion.png');
+}
+#JBMaterials{
+        background-image: url('../assets/sponsors/JB_Logo.png');
+}
+#starFoam{
+        background-image: url('../assets/sponsors/starFoam.png');
+}
+#whistlerDesign{
+        background-image: url('../assets/sponsors/whistlerDesignBlk.png');
+}
+#temeculaValleyDryWall{
+        background-image: url('../assets/sponsors/TemeculaDryWall.png');
+}
+#TEConnect{
+        background-image: url('../assets/sponsors/teConnectivity.png');
+}
+#CRDLaser{
+        background-image: url('../assets/sponsors/CRD_Manufacturing.png');
+}
+#schunk{
+        background-image: url('../assets/sponsors/SCHUNK_Logo.svg');
+}
+#CeCert{
+        background-image: url('../assets/sponsors/CECERT_logo.svg');
+}
+#ansys{
+        background-image: url('../assets/sponsors/ANSYS.png');
+}
+#DVO{
+        background-image: url('../assets/sponsors/DVO_Suspension.png');
+}
+#novotechnik{
+        background-image: url('../assets/sponsors/Novotechnik_Logo.svg');
+}
+#gigavac{
+        background-image: url('../assets/sponsors/Gigavac.png');
+}
+#andromeda{
+        background-image: url('../assets/sponsors/andromeda.png');
+}
+#nationalGypsum{
+        background-image: url('../assets/sponsors/nationalGypsum.gif');
+}
+#omega{
+        background-image: url('../assets/sponsors/Omega.png');
+}
+/* #bender{
+        background-image: url('../assets/sponsors/P.png');
+} */
+#SMEGroup{
+        background-image: url('../assets/sponsors/SMEGroup.png');
+}
+#mechanix{
+        background-image: url('../assets/sponsors/Mechanix_Wear.svg');
+}
+#misumi{
+        background-image: url('../assets/sponsors/Misumi.png');
+}
+#LEM{
+        background-image: url('../assets/sponsors/lem.gif');
+}
+#IDEC{
+        background-image: url('../assets/sponsors/IDEC.gif');
+}
+#EK{
+        background-image: url('../assets/sponsors/ekwb_logo.png');
+} */

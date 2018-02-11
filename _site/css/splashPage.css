@@ -1,0 +1,105 @@
+html.splash{
+    width: 100%;
+    height: 100%;
+    background: url("../assets/dark-triangles.png") ;
+    position: fixed;
+}
+
+body.splash{
+    background: linear-gradient(rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 45%, rgba(34, 34, 34, 1) 100%) no-repeat;
+}
+
+.heading.splash{
+    text-align: center;
+    width: 100vw;
+    max-height: 30vh;
+}
+figure img{
+    max-height: 20vh;
+    width: auto;
+    max-width: 20vw;
+}
+article.splash img{
+    width: 90%;
+    max-height: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#container{
+    margin: 0 auto;
+    height: auto;
+}
+
+article.splash {
+    float: left;
+    width: 50%;
+    height: auto;
+    opacity: 0.9;
+    font-family: 'Bree Serif';
+    display: inline-block;
+}
+
+article.splash:hover{
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+ #container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.label.splash{
+    color: #f1f1f1;
+    font-size: 5em;
+
+}
+
+article.splash .label{
+    text-align: center;
+    display: block;
+}
+
+.heading{
+    color: white;
+    margin-bottom: 20px;
+
+}
+img{
+    width: 20%;
+    height: auto;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+figcaption{
+    caption-side: right;
+    display: inline-block;
+
+}
+.site-title{
+    font-size: 8em;
+    display: inline-block;
+    padding-left: 40px;
+    height: 80px;
+    line-height: 80px;
+    white-space: nowrap;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+/*for mobile devices*/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    body.splash{
+        background: url("https://saeucr.org/wp-content/uploads/2018/01/dark-triangles.png") repeat #333333;
+        background: linear-gradient(rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 45%, rgba(34, 34, 34, 1) 100%) no-repeat;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+}
