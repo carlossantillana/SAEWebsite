@@ -21,4 +21,5 @@
 } else if ($_POST['submit'] && $human != '6') {
 	echo '<p>You answered the anti-spam question incorrectly!</p>';
     }
+header('Location: home.html');
 ?>
