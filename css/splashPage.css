@@ -22,10 +22,12 @@ body.splash{
     width: 100%;
     height: auto;
     text-align: center;
+    max-height: 35vh;
 }
 article.splash img{
     width: 90%;
-    max-height: 90%;
+    max-height: 30vh;
+    max-width: 40vw;
     height: auto;
     display: block;
     margin: 0 auto;
