@@ -25,7 +25,7 @@ body.splash{
     max-height: 35vh;
 }
 article.splash img{
-    max-width:800px;
+    max-width:49vw;
     max-height:35vh;
     width: auto;
     height: auto;
@@ -107,5 +107,4 @@ figcaption{
         background-size: 100%;
         background-repeat: no-repeat;
     }
-
 }
