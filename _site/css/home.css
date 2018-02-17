@@ -21,6 +21,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0px; padding: 0px;
+    background-color: #606060;
 }
 #img1{
         background-image: url('../assets/Composites Day 2-4OP.png');

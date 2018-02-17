@@ -2,15 +2,15 @@ html{
     width: 100%;
     height: 100%;
     margin: 0px; padding: 0px;
-
+    /* background-color: #001f3f; */
 }
 .content{
     margin-top: 60px;
     color: white;
 }
 body{
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    /* background-image:  */
+    background-image: linear-gradient(60deg, #08223D 0%, #08223D 100%);
+    /* background-image: 001f3f */
     height: 100%;
     width: 100%;
     margin: 0;
