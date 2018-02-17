@@ -23,7 +23,7 @@ body.splash{
 }
 article.splash img{
     max-width:49vw;
-    max-height:50vh;
+    max-height:58vh;
     width: auto;
     height: auto;
     display: block;
@@ -58,7 +58,6 @@ article.splash:hover{
 .label.splash{
     color: #f1f1f1;
     font-size: 5em;
-
 }
 
 article.splash .label{
