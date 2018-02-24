@@ -1,5 +1,5 @@
 p{
-	color: white;
+	color: black;
 	font-size: 1em;
 	text-align: center;
 }
@@ -67,7 +67,7 @@ figure img{
 	padding-left: 10px;
 }
 .text {
-	color: white;
+	color: black;
 	font-size: 1em;
 	text-align: center;
 	float: right;
@@ -105,12 +105,12 @@ figure img{
 		clear:both;
 	}
 	p{
-		color: white;
+		color: black;
 		font-size: 1em;
 		text-align: center;
 	}
 	.text {
-		color: white;
+		color: black;
 		font-size: 1em;
 		text-align: center;
 		float: inherit;
