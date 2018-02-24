@@ -54,4 +54,6 @@ a.navbar-brand, a.logo {
 .heading{
     color: white;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }

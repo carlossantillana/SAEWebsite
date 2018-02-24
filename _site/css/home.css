@@ -4,7 +4,6 @@ html{
 body{
     margin: 0px; padding: 0px;
     width: 100%;
-
 }
 a {
     color: white;
@@ -24,10 +23,12 @@ a {
     height: auto;
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 .containCar{
     margin: 0 auto;
     text-align: center;
+    display: block;
 }
 .tagline{
     font-size: 1.5em;
@@ -35,22 +36,3 @@ a {
     margin-bottom: 20vh;
     text-align: center;
 }
-/*
-.image{
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0px; padding: 0px;
-    background-color: #606060;
-}
-#img1{
-        background-image: url('../assets/Composites Day 2-4OP.png');
-}
-#img2{
-        background-image: url('../assets/Composites Day 2-2OP.png');
-}
-#img3{
-        background-image: url('../assets/Composites-3OP.png');
-}
-.text{
-    padding-top: 70%;
-} */
