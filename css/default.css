@@ -35,10 +35,9 @@ p {
     padding-left: 0;
   }
 .navbar-trans {
-  background: transparent;
-
+  background: #08223D;
     }
-
+.navbar-collapse { background:#08223D; /*replace with desired color*/ }
 a.navbar-brand, a.logo {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff !important;
